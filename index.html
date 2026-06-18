@@ -66,13 +66,15 @@
                     // 檢查欄位 (cols[1]) 是否符合所選週次
                     if (cols.length >= 5 && cols[1] === grade) {
                         const wordDiv = document.createElement('div');
-                        wordDiv.className = "bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex justify-between items-center";
+                        wordDiv.className = "bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex flex-col gap-2";
+                        
+                        // 內容呈現：英文與中文直接顯示在列表中
                         wordDiv.innerHTML = `
-                            <div>
+                            <div class="flex justify-between items-center">
                                 <h3 class="font-bold text-lg text-gray-800">${cols[2]}</h3>
-                                <p class="text-gray-600">${cols[3] || ''}</p>
+                                ${cols[4] ? `<audio controls src="${cols[4]}" class="h-8"></audio>` : '<span class="text-xs text-gray-300">無音檔</span>'}
                             </div>
-                            ${cols[4] ? `<audio controls src="${cols[4]}" class="h-8"></audio>` : '<span class="text-xs text-gray-300">無音檔</span>'}
+                            <p class="text-gray-600 border-t pt-2">${cols[3] || ''}</p>
                         `;
                         listContainer.appendChild(wordDiv);
                     }

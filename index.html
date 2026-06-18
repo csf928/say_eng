@@ -10,11 +10,9 @@
     <div id="app" class="max-w-3xl mx-auto">
         <!-- 首頁：按鈕選擇區 -->
         <div id="homeView">
-            <h1 class="text-3xl font-bold mb-8 text-gray-800 text-center">請選擇年級</h1>
-            <div class="flex justify-center">
-                <button onclick="loadWordList('A')" class="bg-blue-600 text-white py-4 px-10 rounded-xl font-bold text-xl hover:bg-blue-700 transition shadow-lg">
-                    週次A
-                </button>
+            <h1 class="text-3xl font-bold mb-8 text-gray-800 text-center">請選擇週次</h1>
+            <div id="buttonContainer" class="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-center">
+                <!-- 按鈕將由 JavaScript 動態生成 -->
             </div>
         </div>
 
@@ -36,6 +34,17 @@
         // 設定 CSV 檔案路徑
         const CSV_PATH = 'vocabulary.csv';
 
+        // 初始化週次按鈕
+        const container = document.getElementById('buttonContainer');
+        const weeks = 'ABCDEFGHIJKLMNOP'.split('');
+        weeks.forEach(w => {
+            const btn = document.createElement('button');
+            btn.innerText = '週次 ' + w;
+            btn.className = "bg-blue-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-lg";
+            btn.onclick = () => loadWordList(w);
+            container.appendChild(btn);
+        });
+
         async function loadWordList(grade) {
             try {
                 const response = await fetch(CSV_PATH + '?t=' + new Date().getTime());
@@ -47,15 +56,14 @@
                 
                 document.getElementById('homeView').classList.add('hidden');
                 document.getElementById('listView').classList.remove('hidden');
-                document.getElementById('title').innerText = grade + " 年級單字列表";
+                document.getElementById('title').innerText = "週次 " + grade + " 單字列表";
                 listContainer.innerHTML = '';
 
                 rows.forEach((row, index) => {
                     if (index === 0 || !row.trim()) return;
                     const cols = row.split(',').map(s => s.trim());
                     
-                    // 根據 CSV 結構：序號,年級,英文,中文,音檔位置
-                    // 檢查年級欄位 (cols[1]) 是否符合所選年級
+                    // 檢查欄位 (cols[1]) 是否符合所選週次
                     if (cols.length >= 5 && cols[1] === grade) {
                         const wordDiv = document.createElement('div');
                         wordDiv.className = "bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex justify-between items-center";

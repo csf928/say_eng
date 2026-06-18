@@ -1,7 +1,7 @@
 序號,年級,英文,中文,音檔位置
-1,1,bee,蜜蜂,./sound/bee.mp3
-2,2,bird,鳥,./sound/bird.mp4
-3,1,cat ,貓,./sound/cat.mp5
-4,1,dog,狗,./sound/dog.mp6
-5,2,flower,花,./sound/flower.mp7
-6,2,cup,杯子,./sound/cup.mp8
+1,A,bee,蜜蜂,./sound/bee.mp3
+2,B,bird,鳥,./sound/bird.mp4
+3,A,cat ,貓,./sound/cat.mp5
+4,C,dog,狗,./sound/dog.mp6
+5,A,flower,花,./sound/flower.mp7
+6,C,cup,杯子,./sound/cup.mp8

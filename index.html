@@ -97,7 +97,7 @@
                     
                     // 篩選邏輯：假設 CSV 第6欄是週次 (例如 'A', 'B', 'C'...)
                     // 如果您的 CSV 結構不同，請調整此處的 index
-                    if (cols.length >= 6 && cols[5].toUpperCase() === week) {
+                    if (cols.length >= 6 && cols[2].toUpperCase() === week) {
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-gray-50";
                         tr.innerHTML = `

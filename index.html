@@ -8,75 +8,96 @@
 </head>
 <body class="bg-gray-50 min-h-screen p-6">
     <div id="app" class="max-w-3xl mx-auto">
-        <!-- 首頁：按鈕選擇區 -->
-        <div id="homeView">
-            <h1 class="text-3xl font-bold mb-8 text-gray-800 text-center">請選擇週次</h1>
-            <div id="buttonContainer" class="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-center">
-                <!-- 按鈕將由 JavaScript 動態生成 -->
+        <h1 class="text-3xl font-bold mb-8 text-gray-800 text-center">英語單字學習系統</h1>
+        
+        <!-- 年級與學期選擇區 -->
+        <div id="gradeSemesterContainer" class="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
+            <!-- 年級學期按鈕 -->
+        </div>
+
+        <!-- 選定年級後顯示的週次選擇區 -->
+        <div id="weekSelectionArea" class="hidden mb-8">
+            <h2 id="selectedGradeTitle" class="text-xl font-bold mb-4 text-indigo-700"></h2>
+            <div id="weekContainer" class="grid grid-cols-4 sm:grid-cols-8 gap-2">
+                <!-- 週次按鈕 -->
             </div>
         </div>
 
-        <!-- 列表頁：隱藏狀態 -->
-        <div id="listView" class="hidden">
-            <div class="flex items-center mb-6">
-                <button onclick="location.reload()" class="mr-4 p-2 bg-gray-200 rounded-full hover:bg-gray-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                </button>
-                <h1 id="title" class="text-2xl font-bold text-gray-800">單字列表</h1>
-            </div>
-            
-            <!-- 表格化呈現方式 -->
-            <div class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
-                <table class="w-full text-left">
-                    <thead class="bg-gray-100 border-b">
-                        <tr>
-                            <th class="p-4 font-semibold text-gray-700">英文</th>
-                            <th class="p-4 font-semibold text-gray-700">中文</th>
-                            <th class="p-4 font-semibold text-gray-700 text-center">音檔</th>
-                        </tr>
-                    </thead>
-                    <tbody id="wordList" class="divide-y divide-gray-200">
-                        <!-- 動態內容 -->
-                    </tbody>
-                </table>
-            </div>
+        <!-- 列表顯示區 -->
+        <div id="listView" class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200 hidden">
+            <table class="w-full text-left">
+                <thead class="bg-gray-100 border-b">
+                    <tr>
+                        <th class="p-4 font-semibold text-gray-700">英文</th>
+                        <th class="p-4 font-semibold text-gray-700">中文</th>
+                        <th class="p-4 font-semibold text-gray-700 text-center">音檔</th>
+                    </tr>
+                </thead>
+                <tbody id="wordList" class="divide-y divide-gray-200">
+                </tbody>
+            </table>
         </div>
     </div>
 
     <script>
-        const CSV_PATH = 'vocabulary.csv';
+        let currentCsvPath = 'vocabulary.csv';
+        const gradeContainer = document.getElementById('gradeSemesterContainer');
+        const weekContainer = document.getElementById('weekContainer');
+        const semesters = ['上學期', '下學期'];
 
-        const container = document.getElementById('buttonContainer');
-        const weeks = 'ABCDEFGHIJKLMNOP'.split('');
-        weeks.forEach(w => {
+        // 初始化年級與學期按鈕
+        for (let i = 1; i <= 6; i++) {
+            semesters.forEach(sem => {
+                const btn = document.createElement('button');
+                btn.innerText = i + '年級' + sem;
+                btn.className = "bg-blue-600 text-white py-3 px-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-sm text-sm";
+                btn.onclick = () => showWeeks(i.toString(), sem);
+                gradeContainer.appendChild(btn);
+            });
+        }
+
+        // 初始化週次按鈕 (A-P)
+        'ABCDEFGHIJKLMNOP'.split('').forEach(w => {
             const btn = document.createElement('button');
-            btn.innerText = '週次 ' + w;
-            btn.className = "bg-blue-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-lg";
+            btn.innerText = '週次' + w;
+            btn.className = "bg-indigo-500 text-white py-2 rounded-lg font-bold hover:bg-indigo-600 transition text-xs";
             btn.onclick = () => loadWordList(w);
-            container.appendChild(btn);
+            weekContainer.appendChild(btn);
         });
 
-        async function loadWordList(grade) {
+        function showWeeks(grade, sem) {
+            // 如果是六年級下學期，將路徑改為 6下.csv
+            if (grade === '6' && sem === '下學期') {
+                currentCsvPath = '6下.csv';
+            } else {
+                currentCsvPath = grade +'.csv';
+            }
+            
+            document.getElementById('selectedGradeTitle').innerText = grade + '年級' + sem + ' (目前讀取: ' + currentCsvPath + ')';
+            document.getElementById('weekSelectionArea').classList.remove('hidden');
+            document.getElementById('listView').classList.add('hidden');
+        }
+
+        async function loadWordList(week) {
             try {
-                const response = await fetch(CSV_PATH + '?t=' + new Date().getTime());
-                if (!response.ok) throw new Error('無法讀取 CSV 檔案');
+                const response = await fetch(currentCsvPath + '?t=' + new Date().getTime());
+                if (!response.ok) throw new Error('無法讀取 ' + currentCsvPath + '，請確認檔案是否存在');
                 
                 const text = await response.text();
                 const rows = text.split(/\r?\n/);
                 const listContainer = document.getElementById('wordList');
+                const listView = document.getElementById('listView');
                 
-                document.getElementById('homeView').classList.add('hidden');
-                document.getElementById('listView').classList.remove('hidden');
-                document.getElementById('title').innerText = "週次 " + grade + " 單字列表";
                 listContainer.innerHTML = '';
+                listView.classList.remove('hidden');
 
                 rows.forEach((row, index) => {
                     if (index === 0 || !row.trim()) return;
                     const cols = row.split(',').map(s => s.trim());
                     
-                    if (cols.length >= 5 && cols[1] === grade) {
+                    // 篩選邏輯：假設 CSV 第6欄是週次 (例如 'A', 'B', 'C'...)
+                    // 如果您的 CSV 結構不同，請調整此處的 index
+                    if (cols.length >= 6 && cols[5].toUpperCase() === week) {
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-gray-50";
                         tr.innerHTML = `

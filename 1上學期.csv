@@ -1,7 +1,62 @@
 序號,學期,週次,英文,中文,音檔位置
-1,1,A,bee,蜜蜂,./sound/1上學期/bee.mp3
-2,1,B,bird,鳥,./sound/1上學期/bird.mp4
-3,1,A,cat ,貓,./sound/1上學期/cat.mp5
-4,2,C,dog,狗,./sound/1上學期/dog.mp6
-5,2,A,net,網子,./sound/1上學期/網子.mp3
-6,2,C,cup,杯子,./sound/1上學期/cup.mp8
+1,,A,apple,蘋果,./sound/1上學期/A-1蘋果.mp3
+2,,A,ant,螞蟻,./sound/1上學期/A-2螞蟻.mp3
+3,,A,Hi.,嗨。,./sound/1上學期/A-3.mp3
+4,,A,Hello!,哈囉！,./sound/1上學期/A-4.mp3
+5,,A,Nice to meet you.,很高興見到你。,./sound/1上學期/A-5.mp3
+6,,B,bag,袋子,./sound/1上學期/B-1袋子.mp3
+7,,B,book,書本,./sound/1上學期/B-2書本.mp3
+8,,B,What’s your name?,你叫什麼名字?,./sound/1上學期/B-3.mp3
+9,,B,I’m Bella.,我是Bella。,./sound/1上學期/B-4.mp3
+10,,B,I’m sorry.,對不起。,./sound/1上學期/B-5.mp3
+11,,C,cat,貓,./sound/1上學期/C-1貓.mp3
+12,,C,cake,蛋糕,./sound/1上學期/C-2蛋糕.mp3
+13,,C,Stand up.,起立。,./sound/1上學期/C-3.mp3
+14,,C,Sit down.,坐下。,./sound/1上學期/C-4.mp3
+15,,C,This is my mother.,這是我媽媽。,./sound/1上學期/C-5.mp3
+16,,D,dog,狗,./sound/1上學期/D-1狗.mp3
+17,,D,duck,鴨子,./sound/1上學期/D-2鴨子.mp3
+18,,D,Good morning.,早安,./sound/1上學期/D-3.mp3
+19,,D,Goodbye.,再見。,./sound/1上學期/D-4.mp3
+20,,D,See you.,再見。,./sound/1上學期/D-5.mp3
+21,,E,elephant,大象,./sound/1上學期/E-1大象.mp3
+22,,E,egg,蛋,./sound/1上學期/E-2蛋.mp3
+23,,E,How are you?,你好嗎?,./sound/1上學期/E-3.mp3
+24,,E,I’m fine.,我很好。,./sound/1上學期/E-4.mp3
+25,,E,Show me.,給我看。,./sound/1上學期/E-5.mp3
+26,,F,fish,魚,./sound/1上學期/F-1魚.mp3
+27,,F,flower,花,./sound/1上學期/F-2花.mp3
+28,,F,What’s this?,這是什麼?,./sound/1上學期/F-3.mp3
+29,,F,It’s a pen.,它是一枝原子筆。,./sound/1上學期/F-4.mp3
+30,,F,Not again.,不會吧。,./sound/1上學期/F-5.mp3
+31,,G,goat,山羊,./sound/1上學期/G-1山羊.mp3
+32,,G,goose,鵝,./sound/1上學期/G-2鵝.mp3
+33,,G,Good afternoon.,午安。,./sound/1上學期/G-3.mp3
+34,,G,How old are you?,你幾歲?,./sound/1上學期/G-4.mp3
+35,,G,I’m seven.,我七歲。,./sound/1上學期/G-5.mp3
+36,,H,hen,母雞,./sound/1上學期/H-1母雞.mp3
+37,,H,horse,馬,./sound/1上學期/H-2馬.mp3
+38,,H,Listen!,聽！,./sound/1上學期/H-3.mp3
+39,,H,Be quiet.,安靜。,./sound/1上學期/H-4.mp3
+40,,H,Help.,幫幫我！,./sound/1上學期/H-5.mp3
+41,,I,igloo,冰屋,./sound/1上學期/I-1冰屋.mp3
+42,,I,ink,墨水,./sound/1上學期/I-2墨水.mp3
+43,,I,What can you do?,你會做什麼?,./sound/1上學期/I-3.mp3
+44,,I,I can read.,我會讀。,./sound/1上學期/I-4.mp3
+45,,I,I can fly.,我會飛。,./sound/1上學期/I-5.mp3
+46,,J,jam,果醬,./sound/1上學期/J-1果醬.mp3
+47,,J,jump,跳,./sound/1上學期/J-2跳.mp3
+48,,J,I’m happy.,我好開心。,./sound/1上學期/J-3.mp3
+49,,J,I’m not happy.,我不開心。,./sound/1上學期/J-4.mp3
+50,,J,I can jump.,我會跳。,./sound/1上學期/J-5.mp3
+51,,K,kite,風箏,./sound/1上學期/K-1風箏.mp3
+52,,K,key,鑰匙,./sound/1上學期/K-2鑰匙.mp3
+53,,K,Try again.,再試一次喔。,./sound/1上學期/K-3.mp3
+54,,K,Good job,你做得真好。,./sound/1上學期/K-4.mp3
+55,,K,Let me see.,讓我看看。,./sound/1上學期/K-5.mp3
+56,,L,lion,獅子,./sound/1上學期/L-1獅子.mp3
+57,,L,love,愛,./sound/1上學期/L-2愛.mp3
+58,,L,I see a lion.,我看到一隻獅子,./sound/1上學期/L-3.mp3
+59,,L,I like it.,我喜歡。,./sound/1上學期/L-4.mp3
+60,,L,I love you.,我愛你。,./sound/1上學期/L-5.mp3
+

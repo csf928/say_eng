@@ -67,11 +67,11 @@
 
         function showWeeks(grade, sem) {
             // 如果是六年級下學期，將路徑改為 6下.csv
-            if (grade === '6' && sem === '下學期') {
-                currentCsvPath = '6下.csv';
-            } else {
+            //if (grade === '6' && sem === '下學期') {
+              //  currentCsvPath = '6下.csv';
+            //} else {
                 currentCsvPath = grade +sem+'.csv';
-            }
+           // }
             
             document.getElementById('selectedGradeTitle').innerText = grade + '年級' + sem + ' (目前讀取: ' + currentCsvPath + ')';
             document.getElementById('weekSelectionArea').classList.remove('hidden');

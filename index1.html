@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎈 大明晨美加油站 🌟</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        /* 卡通圓潤風字體 */
+        .kids-font {
+            font-family: 'Fredoka One', 'Noto Sans TC', sans-serif;
+        }
+        /* Ｑ彈果凍動畫 */
+        @keyframes jelly {
+            0% { transform: scale(1); }
+            30% { transform: scale(1.15) rotate(-3deg); }
+            50% { transform: scale(0.9) rotate(2deg); }
+            80% { transform: scale(1.05) rotate(-1deg); }
+            100% { transform: scale(1) rotate(0); }
+        }
+        .jelly-hover:hover {
+            animation: jelly 0.6s ease-in-out;
+        }
+        /* 漂浮動畫 */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-amber-50/60 min-h-screen p-4 sm:p-6 pb-20">
+    <div id="app" class="max-w-3xl mx-auto">
+        
+        <!-- 點擊標題可重新整理 -->
+        <div class="text-center mb-8 cursor-pointer select-none" onclick="location.reload()">
+            <div class="inline-block float-animation text-4xl mb-2">🎈✨🦁✨🎈</div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-amber-500 kids-font tracking-wider drop-shadow-[0_2px_2px_rgba(0,0,0,0.1)]">
+                大明晨美加油站
+            </h1>
+            
+        </div>
+        
+        <div id="gradeSemesterArea" class="max-w-2xl mx-auto">
+            <div id="gradeSemesterContainer" class="grid grid-cols-2 gap-4 mb-8">
+                <!-- 年級學期按鈕 (由 JS 注入 emojis 與繽紛色彩) -->
+            </div>
+        </div>
+
+        <div id="weekSelectionArea" class="hidden mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-4 border-dashed border-indigo-200 shadow-md">
+            <!-- 完美的置中標題結構，返回按鈕使用絕對定位靠左 -->
+            <div class="relative w-full flex items-center justify-center mb-6 py-2 border-b-2 border-indigo-100 pb-4">
+                <button onclick="location.reload()" class="absolute left-0 bg-rose-400 hover:bg-rose-500 text-white font-extrabold px-3 py-1.5 rounded-full transition-transform transform active:scale-90 hover:scale-105 flex items-center gap-1 text-xs sm:text-sm shadow-md">
+                    <span>←</span> <span>返回</span>
+                </button>
+                <h2 id="selectedGradeTitle" class="text-xl sm:text-2xl font-extrabold text-indigo-600 text-center px-12 sm:px-24"></h2>
+            </div>
+            
+            <p class="text-center text-xs sm:text-sm text-indigo-500 font-bold mb-4">✨ 請挑選你要學習的週考關卡！</p>
+            <div id="weekContainer" class="grid grid-cols-4 gap-2.5">
+                <!-- 週次按鈕 -->
+            </div>
+        </div>
+
+        <div id="listView" class="hidden">
+            <h3 class="text-lg font-black text-amber-700 mb-3 flex items-center gap-2">
+                📖 <span>學習關卡單字：</span>
+            </h3>
+            <div id="wordList" class="space-y-4">
+                <!-- 卡片化單字清單 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentCsvPath = 'vocabulary.csv';
+        const gradeContainer = document.getElementById('gradeSemesterContainer');
+        const weekContainer = document.getElementById('weekContainer');
+        const semesters = ['上學期', '下學期'];
+
+        // 幫年級配對可愛的 Emoji
+        const gradeEmojis = {
+            1: '🎒', // 一年級
+            2: '✏️', // 二年級
+            3: '🎨', // 三年級
+            4: '🧩', // 四年級
+            5: '🚀', // 五年級
+            6: '🎓'  // 六年級
+        };
+
+        // 繽紛按鈕漸層色
+        const colors = [
+            'from-cyan-400 to-blue-500 hover:from-cyan-500 hover:to-blue-600',
+            'from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600',
+            'from-emerald-400 to-teal-500 hover:from-emerald-500 hover:to-teal-600',
+            'from-pink-400 to-rose-500 hover:from-pink-500 hover:to-rose-600',
+            'from-purple-400 to-indigo-500 hover:from-purple-500 hover:to-indigo-600'
+        ];
+
+        // 初始化年級與學期按鈕
+        let colorIdx = 0;
+        for (let i = 1; i <= 6; i++) {
+            semesters.forEach(sem => {
+                const btn = document.createElement('button');
+                const emoji = gradeEmojis[i] || '⭐';
+                btn.innerHTML = `
+                    <div class="text-2xl mb-1">${emoji}</div>
+                    <div class="kids-font font-black">${i}年級${sem}</div>
+                `;
+                const colorTheme = colors[colorIdx % colors.length];
+                btn.className = `bg-gradient-to-br ${colorTheme} text-white py-4 px-3 rounded-2xl shadow-lg transition-transform transform hover:scale-105 active:scale-95 jelly-hover text-center`;
+                btn.onclick = () => showWeeks(i.toString(), sem);
+                gradeContainer.appendChild(btn);
+                colorIdx++;
+            });
+        }
+
+        // 初始化週次按鈕 (A-P)，給予糖果色的圓潤感
+        'ABCDEFGHIJKLMNOP'.split('').forEach((w, index) => {
+            const btn = document.createElement('button');
+            btn.innerHTML = `
+                <span class="block text-[10px] text-white/70">TEST</span>
+                <span class="kids-font font-black text-base sm:text-lg">${w}</span>
+            `;
+            // 糖果系配色
+            const candyColors = [
+                'bg-sky-400 hover:bg-sky-500',
+                'bg-emerald-400 hover:bg-emerald-500',
+                'bg-amber-400 hover:bg-amber-500',
+                'bg-purple-400 hover:bg-purple-500',
+                'bg-rose-400 hover:bg-rose-500'
+            ];
+            const bgClass = candyColors[index % candyColors.length];
+            btn.className = `${bgClass} text-white py-2 rounded-2xl shadow hover:shadow-md transition-transform transform hover:scale-110 active:scale-95 jelly-hover flex flex-col items-center justify-center border-b-4 border-black/10`;
+            btn.onclick = (e) => {
+                // 清除其他週次的高亮，將當前週次加上高亮框
+                document.querySelectorAll('#weekContainer button').forEach(b => b.classList.remove('ring-4', 'ring-indigo-400'));
+                btn.classList.add('ring-4', 'ring-indigo-400');
+                loadWordList(w);
+            };
+            weekContainer.appendChild(btn);
+        });
+
+        // 點擊年級學期按鈕後的切換
+        function showWeeks(grade, sem) {
+            currentCsvPath = grade + sem + '.csv';
+            
+            // 隱藏年級學期選擇區
+            document.getElementById('gradeSemesterArea').classList.add('hidden');
+            
+            // 設定標題並顯示週次與返回列
+            document.getElementById('selectedGradeTitle').innerText = `${gradeEmojis[grade] || '⭐'} ${grade}年級 ${sem}`;
+            document.getElementById('weekSelectionArea').classList.remove('hidden');
+            document.getElementById('listView').classList.add('hidden');
+        }
+
+        // 播放音樂函式 (改採客製化喇叭按鈕觸發，不再使用笨重的 HTML 原生播放器)
+        let activeAudio = null;
+        function playSound(audioUrl, btnElement) {
+            if (!audioUrl) return;
+            
+            // 如果有正在播放的聲音，先暫停它
+            if (activeAudio) {
+                activeAudio.pause();
+                activeAudio.currentTime = 0;
+            }
+
+            // 按鈕點擊時的Ｑ彈回饋
+            btnElement.classList.add('scale-125');
+            setTimeout(() => btnElement.classList.remove('scale-125'), 200);
+
+            // 播放聲音
+            activeAudio = new Audio(audioUrl);
+            activeAudio.play().catch(err => {
+                console.log("音檔讀取失敗:", err);
+                alert("噢不！音檔好像偷跑去睡覺了，請確認檔案位置喔！");
+            });
+        }
+
+        // 異步讀取 CSV 檔案並進行高畫質卡片式渲染
+        async function loadWordList(week) {
+            try {
+                const response = await fetch(currentCsvPath + '?t=' + new Date().getTime());
+                if (!response.ok) throw new Error('無法讀取 ' + currentCsvPath + '，請確認檔案是否存在喔！');
+                
+                const text = await response.text();
+                const rows = text.split(/\r?\n/);
+                const listContainer = document.getElementById('wordList');
+                const listView = document.getElementById('listView');
+                
+                listContainer.innerHTML = '';
+                listView.classList.remove('hidden');
+
+                let foundCount = 0;
+
+                rows.forEach((row, index) => {
+                    if (index === 0 || !row.trim()) return;
+                    const cols = row.split(',').map(s => s.trim());
+                    
+                    // 篩選邏輯：cols[2] 為週次（如 A, B, C）
+                    if (cols.length >= 6 && cols[2].toUpperCase() === week) {
+                        foundCount++;
+                        const card = document.createElement('div');
+                        // 兒童友好的超大字體卡片設計
+                        card.className = "bg-white p-5 rounded-3xl shadow-md border-2 border-amber-100 hover:border-amber-300 hover:shadow-lg transition-all flex justify-between items-center transform hover:-translate-y-1";
+                        
+                        // 組織卡片內容，英文單字大、中文顏色柔和
+                        card.innerHTML = `
+                            <div class="flex-1 pr-4">
+                                <div class="flex items-center gap-2">
+                                    <span class="bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full text-[10px] font-black">WORD</span>
+                                    <h4 class="text-2xl sm:text-3xl font-extrabold text-blue-600 kids-font tracking-wide">${cols[3]}</h4>
+                                </div>
+                                <p class="text-base sm:text-lg text-amber-900/80 font-bold mt-2 pl-1">✨ ${cols[4] || ''}</p>
+                            </div>
+                            <div class="shrink-0">
+                                ${cols[5] ? `
+                                    <button onclick="playSound('${cols[5]}', this)" class="bg-yellow-400 hover:bg-yellow-500 text-white p-3.5 rounded-full shadow-md hover:shadow-lg transform transition active:scale-90 flex items-center justify-center text-xl jelly-hover" title="點我聽發音">
+                                        🔊
+                                    </button>
+                                ` : `
+                                    <span class="text-xs text-gray-300 font-bold">無聲音</span>
+                                `}
+                            </div>
+                        `;
+                        listContainer.appendChild(card);
+                    }
+                });
+
+                // 如果該週次沒有單字，秀出可愛的提醒
+                if (foundCount === 0) {
+                    listContainer.innerHTML = `
+                        <div class="text-center py-12 bg-white rounded-3xl border-2 border-dashed border-gray-200">
+                            <span class="text-4xl">😴</span>
+                            <p class="text-gray-400 font-bold mt-2">這個週次目前沒有單字喔，去其他關卡看看吧！</p>
+                        </div>
+                    `;
+                } else {
+                    // 自動滑動到列表區
+                    setTimeout(() => {
+                        listView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 100);
+                }
+
+            } catch (err) {
+                alert('冒險失敗！ ' + err.message);
+            }
+        }
+    </script>
+</body>
+</html>

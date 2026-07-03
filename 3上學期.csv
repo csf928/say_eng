@@ -1,0 +1,156 @@
+序號,學期,週次,英文,中文,音檔位置
+1,,A,bird,鳥,./sound/3上學期/A-1鳥.mp3
+2,,A,frog,青蛙,./sound/3上學期/A-2青蛙.mp3
+3,,A,rabbit,兔子,./sound/3上學期/A-3兔子.mp3
+4,,A,ox,牛,./sound/3上學期/A-4牛.mp3
+5,,A,PE,體育,./sound/3上學期/A-5體育.mp3
+6,,A,math,數學,./sound/3上學期/A-6數學.mp3
+7,,A,lion,獅子,./sound/3上學期/A-7獅子.mp3
+8,,A,tiger,老虎,./sound/3上學期/A-8老虎.mp3
+9,,A,Is it a frog?,那是一隻青蛙嗎?,./sound/3上學期/A-9.mp3
+10,,A,No，it's not. It's an ox.,不是，是一隻牛。,./sound/3上學期/A-10.mp3
+11,,A,"A:Who's your math teacher?
+B: It's Mrs. Lion.","A:誰是你的數學老師？
+B:是Mrs. Lion(獅子太太)。",./sound/3上學期/A-11.mp3
+12,,A,"A: Who's your PE teacher?
+B: It's Mr. Tiger.","A:誰是你的體育老師？
+B:是Mr. Tiger(老虎先生)",./sound/3上學期/A-12.mp3
+13,,B,cook,廚師,./sound/3上學期/B-1廚師.mp3
+14,,B,doctor,醫生,./sound/3上學期/B-2醫生.mp3
+15,,B,nurse,護士,./sound/3上學期/B-3護士.mp3
+16,,B,student,學生,./sound/3上學期/B-4學生.mp3
+17,,B,tea,茶,./sound/3上學期/B-5茶.mp3
+18,,B,ham,火腿,./sound/3上學期/B-6火腿.mp3
+19,,B,bread,麵包,./sound/3上學期/B-7麵包.mp3
+20,,B,sandwich,三明治,./sound/3上學期/B-8三明治.mp3
+21,,B,Is she a doctor?,她是一位醫生嗎?,./sound/3上學期/B-9.mp3
+22,,B,Yes，she is.,是的，她是。,./sound/3上學期/B-10.mp3
+23,,B,What do you want for breakfast?,你早餐要吃什麼？,./sound/3上學期/B-11.mp3
+24,,B,I want some bread.,我要一點麵包。,./sound/3上學期/B-12.mp3
+25,,C,weather,天氣,./sound/3上學期/C-1天氣.mp3
+26,,C,rainy,下雨,./sound/3上學期/C-2下雨.mp3
+27,,C,cloudy,多雲的,./sound/3上學期/C-3多雲的.mp3
+28,,C,windy,颳風的,./sound/3上學期/C-4颳風的.mp3
+29,,C,noodle,麵,./sound/3上學期/C-5麵.mp3
+30,,C,hot dog,熱狗,./sound/3上學期/C-6熱狗.mp3
+31,,C,hungry,餓,./sound/3上學期/C-7餓.mp3
+32,,C,lunch,午餐,./sound/3上學期/C-8午餐.mp3
+33,,C,How's the weather?,天氣如何?,./sound/3上學期/C-9.mp3
+34,,C,It's sunny.,天氣晴朗。,./sound/3上學期/C-10.mp3
+35,,C,What does he want for lunch?,他午餐要吃些甚麼?,./sound/3上學期/C-11.mp3
+36,,C,He wants noodle for lunch.,他午餐想吃麵。,./sound/3上學期/C-12.mp3
+37,,D,Taipei,臺北,./sound/3上學期/D-1臺北.mp3
+38,,D,Tainan,臺南,./sound/3上學期/D-2臺南.mp3
+39,,D,Taichung,臺中,./sound/3上學期/D-3臺中.mp3
+40,,D,Yilan,宜蘭,./sound/3上學期/D-4宜蘭.mp3
+41,,D,bowl,碗,./sound/3上學期/D-5碗.mp3
+42,,D,fork,叉子 ,./sound/3上學期/D-6 叉子.mp3
+43,,D,knife,刀子 ,./sound/3上學期/D-7 刀子mp3
+44,,D,spoon,湯匙,./sound/3上學期/D-8 湯匙.mp3
+45,,D,How's the weather in Taipei?,台北天氣如何?,./sound/3上學期/D-9.mp3
+46,,D,It's sunny in Taipei.,台北天氣晴。,./sound/3上學期/D-10.mp3
+47,,D,A:May I have a bowl，please?B:Sure!Here you are.,A:請給我一個碗好嗎?B:當然!這就是。,./sound/3上學期/D-11.mp3
+48,,D,Let's eat!,我們一起吃吧!,./sound/3上學期/D-12.mp3
+49,,E,twenty,20,./sound/3上學期/E-1 20.mp3
+50,,E,thirty,30,./sound/3上學期/E-2 30.mp3
+51,,E,forty,40,./sound/3上學期/E-3 40.mp3
+52,,E,fifty,50,./sound/3上學期/E-4 50.mp3
+53,,E,uncle,叔叔(伯伯，舅舅),./sound/3上學期/E-5叔叔(伯伯.舅舅).mp3
+54,,E,CD player,CD播放機,./sound/3上學期/E-6CD播放器.mp3
+55,,E,fan,電扇,./sound/3上學期/E-7電扇.mp3
+56,,E,computer,電腦,./sound/3上學期/E-8電腦.mp3
+57,,E,What time is it?,現在幾點?,./sound/3上學期/E-9.mp3
+58,,E,A:It's twelve o'clock. B:It's twelve thirty.,A:現在12點。B:現在12點半。,./sound/3上學期/E-10.mp3
+59,,E,Can you help me with the CD player?,你可以幫我看一下這台CD播放機好嗎？,./sound/3上學期/E-11.mp3
+60,,E,"Let me see.
+It works!","讓我看一下。
+它是好的啊 !",./sound/3上學期/E-12.mp3
+61,,F,clock,時鐘,./sound/3上學期/F-1時鐘.mp3
+62,,F,home,家,./sound/3上學期/F-2家.mp3
+63,,F,Listen,聽,./sound/3上學期/F-3聽.mp3
+64,,F,look,看,./sound/3上學期/F-4看.mp3
+65,,F,theater,電影院,./sound/3上學期/F-5電影院.mp3
+66,,F,hospital,醫院,./sound/3上學期/F-6醫院.mp3
+67,,F,bakery,烘焙店,./sound/3上學期/F-7烘培店.mp3
+68,,F,store,商店,./sound/3上學期/F-8商店.mp3
+69,,F,Miss a turn.,暫停˙一次。,./sound/3上學期/F-9.mp3
+70,,F,Go back 1 step.,後退一步。,./sound/3上學期/F-10.mp3
+71,,F,Is there a theater here?,這附近有電影院嗎？,./sound/3上學期/F-11.mp3
+72,,F,"A: Is there a bakery here?
+B: Yes， there is.","A:這附近有家烘焙店嗎?
+B:是的，有的。",./sound/3上學期/F-12.mp3
+73,,G,but,但是,./sound/3上學期/G-1但是.mp3
+74,,G,they,他們,./sound/3上學期/G-2他們.mp3
+75,,G,like,喜歡,./sound/3上學期/G-3喜歡.mp3
+76,,G,pencil,鉛筆,./sound/3上學期/G-4鉛筆.mp3
+77,,G,train,火車,./sound/3上學期/G-5火車.mp3
+78,,G,taxi,計程車,./sound/3上學期/G-6計程車.mp3
+79,,G,plane,飛機,./sound/3上學期/G-7飛機.mp3
+80,,G,walk,走路,./sound/3上學期/G-8走路.mp3
+81,,G,A:Is this your pencil?B:No，it's not.,A:這是你的鉛筆嗎?B:不是。,./sound/3上學期/G-9.mp3
+82,,G,A:Is this your eraser?B:No，it's not.,A:這是你的橡皮擦嗎?B:不是。,./sound/3上學期/G-10.mp3
+83,,G,How can I get there?,我如何到達那裡？,./sound/3上學期/G-11.mp3
+84,,G,You can get there by plane.,你可以搭飛機到那裡。,./sound/3上學期/G-12.mp3
+85,,H,TRUE,正確的,./sound/3上學期/H-1正確的.mp3
+86,,H,FALSE,錯誤的,./sound/3上學期/H-2錯誤的.mp3
+87,,H,ruler,尺,./sound/3上學期/H-3尺.mp3
+88,,H,marker,彩色筆,./sound/3上學期/H-4彩色筆.mp3
+89,,H,fish,魚,./sound/3上學期/H-5魚.mp3
+90,,H,duck,鴨子,./sound/3上學期/H-6鴨子.mp3
+91,,H,chicken,雞,./sound/3上學期/H-7雞.mp3
+92,,H,penguin,企鵝,./sound/3上學期/H-8企鵝.mp3
+93,,H,What happened?,怎麼了?,./sound/3上學期/H-9.mp3
+94,,H,It’s just a dream.,這只是個夢!,./sound/3上學期/H-10.mp3
+95,,H,"A: What do you see?
+B: I see a duck.","A:你看見什麼？
+B:我看見一隻鴨。",./sound/3上學期/H-11.mp3
+96,,H,Here are some fish for you.,這有些魚是給你的。,./sound/3上學期/H-12.mp3
+97,,I,storybook,故事書,./sound/3上學期/I-1故事書.mp3
+98,,I,ax,斧頭,./sound/3上學期/I-2斧頭.mp3
+99,,I,thing,事情,./sound/3上學期/I-3事情.mp3
+100,,I,bone,骨頭,./sound/3上學期/I-4骨頭.mp3
+101,,I,puzzle,拼圖,./sound/3上學期/I-5拼圖.mp3
+102,,I,slide,溜滑梯,./sound/3上學期/I-6溜滑梯.mp3
+103,,I,swing,鞦韆,./sound/3上學期/I-7鞦韆.mp3
+104,,I,cake,蛋糕,./sound/3上學期/I-8蛋糕.mp3
+105,,I,Take it home!,帶回家。,./sound/3上學期/I-9.mp3
+106,,I,Take it to the lost and found.,拿去失物招領。,./sound/3上學期/I-10.mp3
+107,,I,"A: Which do you like， 
+the puzzle or the kite?",A:你喜歡拼圖或是風箏？,./sound/3上學期/I-11.mp3
+108,,I,B: I like the kite.,B:我喜歡風箏。,./sound/3上學期/I-12.mp3
+109,,J,desk,桌子,./sound/3上學期/J-1桌子.mp3
+110,,J,chair,椅子,./sound/3上學期/J-2椅子.mp3
+111,,J,Where,哪裡,./sound/3上學期/J-3哪裡.mp3
+112,,J,schoolbag,書包,./sound/3上學期/J-4書包.mp3
+113,,J,apple pie,蘋果派,./sound/3上學期/J-5蘋果派.mp3
+114,,J,cookie,小餅乾,./sound/3上學期/J-6餅乾.mp3
+115,,J,coffee,咖啡,./sound/3上學期/J-7咖啡.mp3
+116,,J,ice cream,冰淇淋,./sound/3上學期/J-8冰淇淋.mp3
+117,,J,Give me a hand，please.,拜託幫忙我一下!,./sound/3上學期/J-9.mp3
+118,,J,Where is my schoolbag?,我的書包在哪裡?,./sound/3上學期/J-10.mp3
+119,,J,A:Would you like an apple pie? B: Yes， please.,A:你要點一個蘋果派嗎？ B:好啊。,./sound/3上學期/J-11.mp3
+120,,J,I' m thirsty.,我口渴。,./sound/3上學期/J-12.mp3
+121,,K,flashlight,手電筒,./sound/3上學期/K-1手電筒.mp3
+122,,K,radio,收音機,./sound/3上學期/K-2收音機.mp3
+123,,K,water,水,./sound/3上學期/K-3水.mp3
+124,,K,food,食物,./sound/3上學期/K-4食物.mp3
+125,,K,sunglasses,太陽眼鏡,./sound/3上學期/K-5太陽眼鏡.mp3
+126,,K,cap,帽子,./sound/3上學期/K-6帽子.mp3
+127,,K,shoes,鞋子,./sound/3上學期/K-7鞋子.mp3
+128,,K,dress,裙子,./sound/3上學期/K-8裙子.mp3
+129,,K,Watch out!,小心!,./sound/3上學期/K-9.mp3
+130,,K,It's under the chair.,他在椅子底下。,./sound/3上學期/K-10.mp3
+131,,K,I need a pink cap.,我需要一頂粉紅色帽子。,./sound/3上學期/K-11.mp3
+132,,K,I need a pair of white shoes.,我需要一雙白色的鞋子。,./sound/3上學期/K-12.mp3
+133,,L,room,房間,./sound/3上學期/L-1房間.mp3
+134,,L,floor,地板,./sound/3上學期/L-2地板.mp3
+135,,L,pen,筆,./sound/3上學期/L-3筆.mp3
+136,,L,eraser,橡皮擦,./sound/3上學期/L-4橡皮擦.mp3
+137,,L,sugar,糖,./sound/3上學期/L-5糖.mp3
+138,,L,milk,牛奶,./sound/3上學期/L-6牛奶.mp3
+139,,L,butter,奶油,./sound/3上學期/L-7奶油.mp3
+140,,L,egg,蛋,./sound/3上學期/L-8蛋.mp3
+141,,L,Where am I?,我在哪裡?,./sound/3上學期/L-9.mp3
+142,,L,You're in room1.,你在一號房間。,./sound/3上學期/L-10.mp3
+143,,L,We need some sugar.,我們需要一點糖。,./sound/3上學期/L-11.mp3
+144,,L,We're done.,我們完成了。,./sound/3上學期/L-12.mp3

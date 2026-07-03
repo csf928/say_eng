@@ -103,7 +103,7 @@
             'from-pink-400 to-rose-500 hover:from-pink-500 hover:to-rose-600',
             'from-purple-400 to-indigo-500 hover:from-purple-500 hover:to-indigo-600'
         ];
-
+    weeksbutton='ABCDEFGHIJKL';
         // 初始化年級與學期按鈕
         let colorIdx = 0;
         for (let i = 1; i <= 6; i++) {
@@ -121,11 +121,9 @@
                 colorIdx++;
 
                     //配合一年級週考由a-z
-               if (grade === '1' && sem === '下學期') {
+               if (i === '1' && sem === '下學期') {
                     weeksbutton='NOPQRSTUVWXYZ';
-                } else {
-                    weeksbutton='ABCDEFGHIJKL';
-            }
+                } 
             });
         }
 

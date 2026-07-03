@@ -121,9 +121,9 @@
                 colorIdx++;
             });
         }
-
+        weeksbutton='ABCDEFGHIJKL';
         // 初始化週次按鈕 (A-P)，給予糖果色的圓潤感
-        'ABCDEFGHIJKL'.split('').forEach((w, index) => {
+        weeksbutton.split('').forEach((w, index) => {
             const btn = document.createElement('button');
             btn.innerHTML = `
                 <span class="block text-[10px] text-white/70">TEST</span>

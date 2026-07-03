@@ -121,7 +121,16 @@
                 colorIdx++;
             });
         }
-        weeksbutton='ABCDEFGHIJKL';
+
+        //配合一年級週考由a-z
+           if (grade === '1' && sem === '下學期') {
+                weeksbutton='NOPQRSTUVWXYZ';
+            } else {
+                weeksbutton='ABCDEFGHIJKL';
+            }
+        
+
+        
         // 初始化週次按鈕 (A-P)，給予糖果色的圓潤感
         weeksbutton.split('').forEach((w, index) => {
             const btn = document.createElement('button');

@@ -119,15 +119,17 @@
                 btn.onclick = () => showWeeks(i.toString(), sem);
                 gradeContainer.appendChild(btn);
                 colorIdx++;
+
+                    //配合一年級週考由a-z
+               if (grade === '1' && sem === '下學期') {
+                    weeksbutton='NOPQRSTUVWXYZ';
+                } else {
+                    weeksbutton='ABCDEFGHIJKL';
+            }
             });
         }
 
-        //配合一年級週考由a-z
-           if (grade === '1' && sem === '下學期') {
-                weeksbutton='NOPQRSTUVWXYZ';
-            } else {
-                weeksbutton='ABCDEFGHIJKL';
-            }
+        
         
 
         

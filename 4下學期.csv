@@ -1,0 +1,196 @@
+序號,學期,週次,英文,中文,音檔位置
+1,2,A,egg white,蛋白,./sound/4下學期/A01 蛋白.mp3
+2,2,A,egg yolk,蛋黃,./sound/4下學期/A02 蛋黃.mp3
+3,2,A,sunblock,防曬乳,./sound/4下學期/A03 防曬乳.mp3
+4,2,A,calories,卡路里,./sound/4下學期/A04 卡路里.mp3
+5,2,A,bakery,麵包店,./sound/4下學期/A05 麵包店.mp3
+6,2,A,bank,銀行,./sound/4下學期/A06 銀行.mp3
+7,2,A,bookstore,書店,./sound/4下學期/A07 書店.mp3
+8,2,A,hostipal,醫院,./sound/4下學期/A08 醫院.mp3
+9,2,A,Daddy is reading the newspaper.,爸爸正在看報紙。,./sound/4下學期/A09 爸爸正在看報紙.mp3
+10,2,A,He is feeding the dog.,他正在餵狗。,./sound/4下學期/A10 他正在餵狗.mp3
+11,2,A,"A: Where are you going? 
+B: I am going to the park.","A:你要去哪裡?
+B:我正要去公園。",./sound/4下學期/A11 你要去哪裡.mp3
+12,2,A,A: Where is Kevin going? B: He is going to the park.,"A:凱文要去哪裡?
+B:他正要去公園。",./sound/4下學期/A12 凱文要去哪裡.mp3
+13,2,B,baseball,棒球,./sound/4下學期/B01 棒球.mp3
+14,2,B,stutter,口吃,./sound/4下學期/B02 口吃.mp3
+15,2,B,wheelchair,輪椅,./sound/4下學期/B03 輪椅.mp3
+16,2,B,float,浮起,./sound/4下學期/B04 浮起.mp3
+17,2,B,park,公園,./sound/4下學期/B05 公園.mp3
+18,2,B,post office,郵局,./sound/4下學期/B06 郵局.mp3
+19,2,B,restaurant,餐廳,./sound/4下學期/B07 餐廳.mp3
+20,2,B,supermarket,超級市場,./sound/4下學期/B08 超級市場.mp3
+21,2,B,I bite my nails.,我會咬指甲。,./sound/4下學期/B09 我會咬指甲.mp3
+22,2,B,I’m learning to swim.,我正在學游泳。,./sound/4下學期/B10 我正在學游泳.mp3
+23,2,B,"A: Are you going to the
+bakery?
+B: Yes， I am. / No， I’m not. I’m going to the bookstore.","A: 你要去麵包店嗎?
+B: 是的。/ 不是。
+我正要去書店。",./sound/4下學期/B11 你要去麵包店嗎.mp3
+24,2,B,"A: Is Amy going to the
+bakery?
+B: Yes， she is. 
+No， she’s not.","A: Amy要去麵包店嗎?
+B: 是的。
+不是。",./sound/4下學期/B12 Amy要去麵包店嗎.mp3
+25,2,C,genie,精靈,./sound/4下學期/C01 精靈.mp3
+26,2,C,rub,摩擦,./sound/4下學期/C02 摩擦.mp3
+27,2,C,wish,願望,./sound/4下學期/C03 願望.mp3
+28,2,C,life ring,救生圈,./sound/4下學期/C04 救生圈.mp3
+29,2,C,bike,腳踏車,./sound/4下學期/C05 腳踏車.mp3
+30,2,C,bus,公車,./sound/4下學期/C06 公車.mp3
+31,2,C,plane,飛機,./sound/4下學期/C07 飛機.mp3
+32,2,C,scooter,機車,./sound/4下學期/C08 機車.mp3
+33,2,C,Don’t be such a chicken.,別那麼膽小。,./sound/4下學期/C09 別那麼膽小.mp3
+34,2,C,Knives aren’t for playing.,刀子不是用來玩的。,./sound/4下學期/C10 刀子不是用來玩的.mp3
+35,2,C,"A: How can we get to the 
+park ?
+B: We can get there by 
+bike.","A: 我們要怎麼去公園
+呢?
+B: 我們可以騎腳踏車 
+去。",./sound/4下學期/C11 我們要怎麼去公園.mp3
+36,2,C,"A: How can Amy get to 
+the park ?
+B: She can get there by
+bike.","A: Amy要怎麼去公園
+呢?
+B: 她可以騎腳踏車去。",./sound/4下學期/C12 Amy要怎麼去公園.mp3
+37,2,D,popular,人緣很好的,./sound/4下學期/D01 人緣很好的.mp3
+38,2,D,piano,鋼琴,./sound/4下學期/D02 鋼琴.mp3
+39,2,D,flute,長笛,./sound/4下學期/D03 長笛.mp3
+40,2,D,solo,獨奏,./sound/4下學期/D04 獨奏.mp3
+41,2,D,taxi,計程車,./sound/4下學期/D05 計程車.mp3
+42,2,D,train,火車,./sound/4下學期/D06 火車.mp3
+43,2,D,island,島,./sound/4下學期/D07 島.mp3
+44,2,D,low tide,退潮,./sound/4下學期/D08 退潮.mp3
+45,2,D,I like to roll on the lawn.,我喜歡在草地滾來滾去。,./sound/4下學期/D09 我喜歡在草地滾來滾去.mp3
+46,2,D,We sing a song and clap hands,我們唱一首歌並拍手。,./sound/4下學期/D10 我們唱一首歌並拍手.mp3
+47,2,D,"A: Can we get to the park by bike ?
+B: Yes， we can./ No， we can’t.
+We can get there by
+bus.","A: 我們可以騎腳踏車
+去公園嗎?
+
+B: 可以。/不可以。
+我們可以搭公車去。",./sound/4下學期/D11 我們可以騎腳踏車.mp3
+48,2,D,Kevin can walk to school.,Kevin可以走路去學校。,./sound/4下學期/D12Kevin可以走路去學校.mp3
+49,2,E,burp,打嗝,./sound/4下學期/E01 打嗝.mp3
+50,2,E,trend,流行的潮流,./sound/4下學期/E02流行的潮流.mp3
+51,2,E,tailor,量身訂做,./sound/4下學期/E03量身訂做.mp3
+52,2,E,play house,扮家家酒,./sound/4下學期/E04扮家家酒.mp3
+53,2,E,brown,棕色,./sound/4下學期/E05棕色.mp3
+54,2,E,prize,獎品,./sound/4下學期/E06獎品.mp3
+55,2,E,grass,草,./sound/4下學期/E07 草.mp3
+56,2,E,crush,壓碎,./sound/4下學期/E08 壓碎.mp3
+57,2,E,Don’t talk aloud.,講話不要太大聲。,./sound/4下學期/E09 講話不要太大聲.mp3
+58,2,E,Please pass me the fish.,請把魚遞給我。,./sound/4下學期/E10 請把魚遞給我.mp3
+59,2,E,Prince Bruno likes bread.,Bruno王子喜歡麵包。,./sound/4下學期/E11Bruno王子喜歡麵包.mp3
+60,2,E,Princess Grace likes grapes.,Grace公主喜歡葡萄。,./sound/4下學期/E12Grace公主喜歡葡萄.mp3
+61,2,F,Easter,復活節,./sound/4下學期/F01復活節.mp3
+62,2,F,bunny,小兔子,./sound/4下學期/F02小兔子.mp3
+63,2,F,Have fun!,玩得開心！,./sound/4下學期/F03玩得開心！.mp3
+64,2,F,tired,疲倦的,./sound/4下學期/F04疲倦的.mp3
+65,2,F,tourist,遊客,./sound/4下學期/F05 遊客.mp3
+66,2,F,spot,景點,./sound/4下學期/F06 景點.mp3
+67,2,F,town,鎮,./sound/4下學期/F07 鎮.mp3
+68,2,F,miss,錯過,./sound/4下學期/F08錯過.mp3
+69,2,F,You can bring the children something nice too.,"你也可以為孩子帶來
+一些好東西。",./sound/4下學期/F09你也可以為孩子帶來一些好東西.mp3
+70,2,F,"It was really nice of you 
+to help the Easter Bunny， Cat.",貓咪，你能幫助復活節兔子真是太好了。,./sound/4下學期/F10貓咪，你能幫助復活節兔子真是太好了。.mp3
+71,2,F,Let’s make our world better!,讓我們的世界變得更美好！,./sound/4下學期/F11讓我們的世界變得更美好！.mp3
+72,2,F,You can ride a bike here.,你可以在這裡騎腳踏車。,./sound/4下學期/F12你可以在這裡騎腳踏車。.mp3
+73,2,G,stingy,小器,./sound/4下學期/G01 小器.mp3
+74,2,G,desert,沙漠,./sound/4下學期/G02 沙漠.mp3
+75,2,G,camel,駱駝,./sound/4下學期/G03 駱駝.mp3
+76,2,G,computer,電腦,./sound/4下學期/G04 電腦.mp3
+77,2,G,dress,洋裝,./sound/4下學期/G05 洋裝.mp3
+78,2,G,skirt,裙子,./sound/4下學期/G06 裙子.mp3
+79,2,G,sweater,毛衣,./sound/4下學期/G07 毛衣.mp3
+80,2,G,T-shirt,T恤,./sound/4下學期/G08 T恤.mp3
+81,2,G,Who’s your best friend?,誰是你最好的朋友?,./sound/4下學期/G09 誰是你最好的朋友.mp3
+82,2,G,Can we play leap frog?,我們來玩跳馬背好嗎?,./sound/4下學期/G10 我們來玩跳馬背好嗎.mp3
+83,2,G,"A: How much is the dress?
+B: It’s nine hundred dollars.","A:這件洋裝多少錢?
+B:九百元。",./sound/4下學期/G11 這件洋裝多少錢.mp3
+84,2,G,"A: How much is the skirt?
+B: It’s seven hundred dollars.","A:這件裙子多少錢?
+B:七百元。",./sound/4下學期/G12這件裙子多少錢.mp3
+85,2,H,pirate,海盜,./sound/4下學期/H01 海盜.mp3
+86,2,H,captain,船長,./sound/4下學期/H02 船長.mp3
+87,2,H,parrot,鸚鵡,./sound/4下學期/H03 鸚鵡.mp3
+88,2,H,bottle,瓶子,./sound/4下學期/H04 瓶子.mp3
+89,2,H,pants,褲子,./sound/4下學期/H05 褲子.mp3
+90,2,H,shorts,短褲,./sound/4下學期/H06 短褲.mp3
+91,2,H,sneakers,運動鞋,./sound/4下學期/H07 運動鞋.mp3
+92,2,H,socks,短襪,./sound/4下學期/H08 短襪.mp3
+93,2,H,You’re such a nice person.,你人真好。,./sound/4下學期/H09 你人真好.mp3
+94,2,H,You have to answer me.,你一定要回答我。,./sound/4下學期/H10 你一定要回答我.mp3
+95,2,H,"A: How much are the 
+pants ?
+B:They’re four hundred and fifty dollars.","A:這件褲子多少錢?
+B:四百五十元。",./sound/4下學期/H11 這件褲子多少錢.mp3
+96,2,H,"A: How much are the 
+socks ?
+B: They’re one hundred and ninety dollars.","A:這雙短襪多少錢?
+B:一百九十元。",./sound/4下學期/H12這雙短襪多少錢.mp3
+97,2,I,scary movie,恐怖片,./sound/4下學期/I01 恐怖片.mp3
+98,2,I,cheese,嘻(笑一個),./sound/4下學期/I02 嘻(笑一個).mp3
+99,2,I,dive,潛水,./sound/4下學期/I03 潛水.mp3
+100,2,I,cry baby,愛哭鬼,./sound/4下學期/I04 愛哭鬼.mp3
+101,2,I,backpack,背包,./sound/4下學期/I05 背包.mp3
+102,2,I,jacket,夾克,./sound/4下學期/I06 夾克.mp3
+103,2,I,smartphone,智慧型手機,./sound/4下學期/I07 智慧型手機.mp3
+104,2,I,umbrella,雨傘,./sound/4下學期/I08 雨傘.mp3
+105,2,I,A: When do you get scared?B: When I’m alone.,A:你什麼時候感到恐懼?B:當我一個人。,./sound/4下學期/I09 你什麼時候感到恐懼.mp3
+106,2,I,Let’s jump into the water.,我們來跳水吧。,./sound/4下學期/I10 我們來跳水吧.mp3
+107,2,I,Don't forget your belongings.,別忘了你的物品。,./sound/4下學期/I11別忘了你的物品.mp3
+108,2,I,Go to the Lost and Found.,前往失物招領處。,./sound/4下學期/I12前往失物招領處.mp3
+109,2,J,public,公眾的,./sound/4下學期/J01 公眾的.mp3
+110,2,J,a car crash,車禍,./sound/4下學期/J02 車禍.mp3
+111,2,J,music hall,音樂廳,./sound/4下學期/J03 音樂廳.mp3
+112,2,J,stage,舞台,./sound/4下學期/J04 舞台.mp3
+113,2,J,watch,手錶,./sound/4下學期/J05 手錶.mp3
+114,2,J,keys,鑰匙,./sound/4下學期/J06 鑰匙.mp3
+115,2,J,water bottle,水壺,./sound/4下學期/J07 水壺.mp3
+116,2,J,glasses,眼鏡,./sound/4下學期/J08 眼鏡.mp3
+117,2,J,I’m a fast swimmer.,我游得很快。,./sound/4下學期/J09 我游得很快.mp3
+118,2,J,I was chased by a dog.,我被狗追。,./sound/4下學期/J10 我被狗追.mp3
+119,2,J,"A: Whose jacket is it ? 
+B: It’s Kevin’s jacket.","A:這是誰的外套?
+B:這是Kevin的 外套。",./sound/4下學期/J11 這是誰的外套.mp3
+120,2,J,"A: Whose glasses are they ? 
+B: They’re my glasses.","A:這是誰的眼鏡?
+B:這是我的 眼鏡。",./sound/4下學期/J12 這是誰的眼鏡.mp3
+121,2,K,message,留言,./sound/4下學期/K01 留言.mp3
+122,2,K,floss,牙線,./sound/4下學期/K02 牙線.mp3
+123,2,K,clip,剪(指甲),./sound/4下學期/K03 剪(指甲).mp3
+124,2,K,chew,咬。咀嚼,./sound/4下學期/K04 咬.咀嚼.mp3
+125,2,K,spoon,湯匙,./sound/4下學期/K05 湯匙.mp3
+126,2,K,star,星星,./sound/4下學期/K06 星星.mp3
+127,2,K,storm,暴風雨,./sound/4下學期/K07 暴風雨.mp3
+128,2,K,sky,天空,./sound/4下學期/K08 天空.mp3
+129,2,K,I want to learn to dive.,我想學潛水。,./sound/4下學期/K09 我想學潛水.mp3
+130,2,K,I brush my teeth every day.,我每天刷牙。,./sound/4下學期/K10 我每天刷牙.mp3
+131,2,K,He can’t see the stars in the storm.,他在暴風雨中看不到星星。,./sound/4下學期/K11 他在暴風雨中看不到星星.mp3
+132,2,K,Steve can fly in the sky.,Steve 能在天空中飛翔。,./sound/4下學期/K12 Steve 能在天空中飛翔.mp3
+133,2,L,make up,化妝,./sound/4下學期/L01 化妝.mp3
+134,2,L,plastic bag,塑膠袋,./sound/4下學期/L02 塑膠袋.mp3
+135,2,L,ear plugs,耳塞,./sound/4下學期/L03 耳塞.mp3
+136,2,L,sports day,運動會,./sound/4下學期/L04 運動會.mp3
+137,2,L,bamboo,竹子,./sound/4下學期/L05竹子.mp3
+138,2,L,size,尺寸,./sound/4下學期/L06尺寸.mp3
+139,2,L,total,總計,./sound/4下學期/L07總計.mp3
+140,2,L,item,品項,./sound/4下學期/L08品項.mp3
+141,2,L,I didn’t get enough sleep.,我睡眠不足。,./sound/4下學期/L09 我睡眠不足.mp3
+142,2,L,I get blood shot eyes.,我眼睛充滿血絲。,./sound/4下學期/L10 我眼睛充滿血絲.mp3
+143,2,L,"A: Whose water bottle is it ? 
+B: It’s Tina’s water 
+bottle.","A:這是誰的水壺?
+B:這是Tina的水壺。",./sound/4下學期/L11這是誰的水壺.mp3
+144,2,L,"A: Whose pants are they ? 
+B: They’re Liz’s pants.","A:這是誰的長褲?
+B:這是 Liz的 長褲。",./sound/4下學期/L12這是誰的長褲.mp3

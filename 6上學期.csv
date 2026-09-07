@@ -1,4 +1,4 @@
-項次,學期,週次,中文,英文,中文
+項次,學期,週次,中文,英文,
 A-1,1,A,同意,agree,./sound/6上學期/A-1 同意.mp3
 A-2,1,A,了解,understand,./sound/6上學期/A-2 了解.mp3
 A-3,1,A,語言,language,./sound/6上學期/A-3 語言.mp3
@@ -26,7 +26,7 @@ B-10,1,B,打籃球,played basketball,./sound/6上學期/B-10 打籃球.mp3
 B-11,1,B,台北 101 是台灣最高最高的建築。,Taipei 101 is the tallest building in Taiwan.,./sound/6上學期/B-11 句子.mp3
 B-12,1,B,但是他保持冷靜。,But he stayed calm.,./sound/6上學期/B-12 句子.mp3
 B-13,1,B,你昨天有整理房間嗎？,Did you clean the room yesterday?,./sound/6上學期/B-13 句子.mp3
-B-14,1,B,是的。／沒有，我昨天煮晚餐。,Yes， I did. / No，I didn't. I cooked dinner yesterday.,./sound/6上學期/B-14 句子.mp3
+B-14,1,B,是的。／沒有，我昨天煮晚餐。,Yes， I did. / No， I didn't. I cooked dinner yesterday.,./sound/6上學期/B-14 句子.mp3
 C-1,1,C,成功的,successful,./sound/6上學期/C-1 成功的.mp3
 C-2,1,C,成就,achievement,./sound/6上學期/C-2 成就.mp3
 C-3,1,C,因為,because,./sound/6上學期/C-3 因為.mp3
@@ -83,88 +83,87 @@ F-11,1,F,你可知道哪個島是世界最大的火山島？,Do you know which i
 F-12,1,F,大屯山沒有岩漿流出來。,Lava is not coming out of Datun Mountain.,./sound/6上學期/F-12句子.mp3
 F-13,1,F,它可以節省時間和精力。,It saves time and effort.,./sound/6上學期/F-13句子.mp3
 F-14,1,F,有些人喜歡親手做家務。,Some people like to do housework by hand.,./sound/6上學期/F-14句子.mp3
-G-1,1,G,叮,sting,./sound/6上學期/G-1咬.mp3
-G-2,1,G,哎喲,ouch,./sound/6上學期/G-2叮.mp3
-G-3,1,G,傷害,hurt,./sound/6上學期/G-3哎喲.mp3
-G-4,1,G,更糟的,worse,./sound/6上學期/G-4傷害.mp3
-G-5,1,G,海灘,beach,./sound/6上學期/G-5更糟的.mp3
-G-6,1,G,森林,forest,./sound/6上學期/G-6海灘.mp3
-G-7,1,G,島嶼,island,./sound/6上學期/G-7森林.mp3
-G-8,1,G,湖泊,lake,./sound/6上學期/G-8島嶼.mp3
-G-9,1,G,山脈,mountain,./sound/6上學期/G-9湖泊.mp3
-G-10,1,G,臺灣用無人機來消滅紅火蟻。,Taiwan is using drones to kill fire ants.,./sound/6上學期/G-10山脈.mp3
-G-11,1,G,蟑螂比蚊子壞多了。,Roaches are much worse than mosquitoes!,./sound/6上學期/G-11句1.mp3
-G-12,1,G,你上個週末去哪裡？,Where did you go last weekend?,./sound/6上學期/G-12句2.mp3
-G-13,1,G,我上個週末去日月潭。,"I went to Sun Moon Lake last 
-    weekend.
-",./sound/6上學期/G-13句3.mp3
-G-14,1,G,巴西,Brazil,./sound/6上學期/G-14句4.mp3
-H-1,1,H,著名的,famous,./sound/6上學期/H-1巴西.mp3
-H-2,1,H,嘉年華,carnival,./sound/6上學期/H-2著名的.mp3
-H-3,1,H,慶典,celebration,./sound/6上學期/H-3嘉年華.mp3
-H-4,1,H,小偷,thief,./sound/6上學期/H-4慶典.mp3
-H-5,1,H,河流,river,./sound/6上學期/H-5小偷.mp3
-H-6,1,H,溫泉,hot spring,./sound/6上學期/H-6河流.mp3
-H-7,1,H,南投,Nantou,./sound/6上學期/H-7溫泉.mp3
-H-8,1,H,屏東,Pingtung,./sound/6上學期/H-8南投.mp3
-H-9,1,H,高雄,Kaohsiung,./sound/6上學期/H-9屏東.mp3
-H-10,1,H,每年有好幾百萬人去嘉年華會。,Millions of people go to Carnival every year.,./sound/6上學期/H-10高雄.mp3
-H-11,1,H,巴西政策是避免人們的安全遭到小偷的威脅。,Brazil's police try to keep people safe from thieves.,./sound/6上學期/H-11句1.mp3
-H-12,1,H,你上個星期五去日月潭嗎？,Did you go to Sun Moon Lake,./sound/6上學期/H-12句2.mp3
-H-13,1,H,是的。/沒有，我上個星期五去綠島。,Yes， I did.  /  No， I didn’t. I went to Green Island last Friday.,./sound/6上學期/H-13句3.mp3
-H-14,1,H,燃料,fuel,./sound/6上學期/H-14句4.mp3
-I-1,1,I,化石,fossil,./sound/6上學期/I-1燃料.mp3
-I-2,1,I,混合,mix,./sound/6上學期/I-2化石.mp3
-I-3,1,I,航空公司,airlines,./sound/6上學期/I-3混合.mp3
-I-4,1,I,國家,country,./sound/6上學期/I-4航空公司.mp3
-I-5,1,I,便利商店,convenience store,./sound/6上學期/I-5國家.mp3
-I-6,1,I,捷運站,MRT station,./sound/6上學期/I-6便利商店.mp3
-I-7,1,I,在.....對面,across from,./sound/6上學期/I-7捷運站.mp3
-I-8,1,I,在.....之間,between,./sound/6上學期/I-8在.....對面.mp3
-I-9,1,I,在.....旁邊,next to,./sound/6上學期/I-9在.....之間.mp3
-I-10,1,I,台灣希望飛機不再造成空氣污染。,Taiwan wants all planes to make less dirty air.,./sound/6上學期/I-10在.....旁邊.mp3
-I-11,1,I,明年，台灣也將自己製造新的環保燃料。,Next year，Taiwan will make its own cleaner fuel.,./sound/6上學期/I-11句1.mp3
-I-12,1,I,茶飲店在哪裡？,Where is the tea shop?,./sound/6上學期/I-12句2.mp3
-I-13,1,I,它在科學博物館和公園之間。,It’s between the science museum and the park.,./sound/6上學期/I-13句3.mp3
-I-14,1,I,夾腳拖,flip-flop,./sound/6上學期/I-14句4.mp3
-J-1,1,J,回收,recycle,./sound/6上學期/J-1主題樂園.mp3
-J-2,1,J,剎車,brake,./sound/6上學期/J-2尖叫.mp3
-J-3,1,J,學習,learn,./sound/6上學期/J-3鬼屋.mp3
-J-4,1,J,家人,family,./sound/6上學期/J-4浪費.mp3
-J-5,1,J,科學博物館,science museum,./sound/6上學期/J-5迷宮.mp3
-J-6,1,J,茶飲店,tea shop,./sound/6上學期/J-6街頭小吃.mp3
-J-7,1,J,餐廳,restaurant,./sound/6上學期/J-7臭豆腐.mp3
-J-8,1,J,電影院,movie theater,./sound/6上學期/J-8蚵仔煎.mp3
-J-9,1,J,超市,supermarket,./sound/6上學期/J-9糖葫蘆.mp3
-J-10,1,J,他很無聊，所以嘗試了新事物。,He was bored，so he tried something new.,./sound/6上學期/J-10酥脆的.mp3
-J-11,1,J,你的朋友怎麼想到這個主意?,Where did your friend get the idea?,./sound/6上學期/J-11句1.mp3
-J-12,1,J,捷運站在茶飲店旁邊嗎？,Is the MRT station next to the tea shop?,./sound/6上學期/J-12句2.mp3
-J-13,1,J,是的。/不是。它在茶飲店對面。,Yes， it is. / No， it’s not. It’s across from the tea shop.,./sound/6上學期/J-13句3.mp3
-J-14,1,J,南極,Antarctica,./sound/6上學期/J-14句4.mp3
-K-1,1,K,專家,expert,./sound/6上學期/K-1南極.mp3
-K-2,1,K,第一次,first time,./sound/6上學期/K-2專家.mp3
-K-3,1,K,以前,before,./sound/6上學期/K-3第一次.mp3
-K-4,1,K,世界上,in the world,./sound/6上學期/K-4以前.mp3
-K-5,1,K,處於困難中,in trouble,./sound/6上學期/K-5世界上.mp3
-K-6,1,K,水豚,capybara,./sound/6上學期/K-6處於困難中.mp3
-K-7,1,K,意思是,mean,./sound/6上學期/K-7水豚.mp3
-K-8,1,K,環繞,around,./sound/6上學期/K-8意思是.mp3
-K-9,1,K,在.....旁邊,by,./sound/6上學期/K-9環繞.mp3
-K-10,1,K,你有去過冰島嗎?,Have you ever been to Iceland?,./sound/6上學期/K-10在.....旁邊.mp3
-K-11,1,K,蚊子喜歡住在溫暖潮濕的地方。,Mosquitoes like to live in warm and wet places.,./sound/6上學期/K-11句1.mp3
-K-12,1,K,我遇到麻煩了。,I’m in hot water.,./sound/6上學期/K-12句2.mp3
-K-13,1,K,有其母必有其女。,Like mother， like daughter.,./sound/6上學期/K-13句3.mp3
-K-14,1,K,垃圾,trash,./sound/6上學期/K-14句4.mp3
-L-1,1,L,焚燒,burn,./sound/6上學期/L-1垃圾mp3
-L-2,1,L,垃圾掩埋,landfills,./sound/6上學期/L-2焚燒.mp3
-L-3,1,L,較少的,less,./sound/6上學期/L-3垃圾掩埋.mp3
-L-4,1,L,公斤,kilogram,./sound/6上學期/L-4較少的 .mp3
-L-5,1,L,提款,withdraw,./sound/6上學期/L-5公斤.mp3
-L-6,1,L,存款,deposit,./sound/6上學期/L-6提款.mp3
-L-7,1,L,繳費,pay bills,./sound/6上學期/L-7存款.mp3
-L-8,1,L,與.....相處,hang out,./sound/6上學期/L-8繳費mp3
-L-9,1,L,雜誌,magazine,./sound/6上學期/L-9與.....相處.mp3
-L-10,1,L,我胖了七公斤!,I gained 7 kilograms!,./sound/6上學期/L-10雜誌.mp3
-L-11,1,L,你只需要少吃薯條就可以了。,All you need to do is cut down on French fries.,./sound/6上學期/L-11句1.mp3
-L-12,1,L,便利商店就像一間銀行。,A convenience store is like a bank.,./sound/6上學期/L-12句2.mp3
-L-13,1,L,你可以坐下來喝杯茶或咖啡放鬆一下。, You can sit down and relax with a cup of tea or coffee.,./sound/6上學期/L-13句3.mp3
+G-1,1,G,咬,bite,./sound/6上學期/G-1咬.mp3
+G-2,1,G,叮,sting,./sound/6上學期/G-2叮.mp3
+G-3,1,G,哎喲,ouch,./sound/6上學期/G-3哎喲.mp3
+G-4,1,G,傷害,hurt,./sound/6上學期/G-4傷害.mp3
+G-5,1,G,更糟的,worse,./sound/6上學期/G-5更糟的.mp3
+G-6,1,G,海灘,beach,./sound/6上學期/G-6海灘.mp3
+G-7,1,G,森林,forest,./sound/6上學期/G-7森林.mp3
+G-8,1,G,島嶼,island,./sound/6上學期/G-8島嶼.mp3
+G-9,1,G,湖泊,lake,./sound/6上學期/G-9湖泊.mp3
+G-10,1,G,山脈,mountain,./sound/6上學期/G-10山脈.mp3
+G-11,1,G,臺灣用無人機來消滅紅火蟻。,Taiwan is using drones to kill fire ants.,./sound/6上學期/G-11句1.mp3
+G-12,1,G,蟑螂比蚊子壞多了。,Roaches are much worse than mosquitoes!,./sound/6上學期/G-12句2.mp3
+G-13,1,G,你上個週末去哪裡？,Where did you go last weekend?,./sound/6上學期/G-13句3.mp3
+G-14,1,G,我上個週末去日月潭。,"I went to Sun Moon Lake last weekend.",./sound/6上學期/G-14句4.mp3
+H-1,1,H,巴西,Brazil,./sound/6上學期/H-1巴西.mp3
+H-2,1,H,著名的,famous,./sound/6上學期/H-2著名的.mp3
+H-3,1,H,嘉年華,carnival,./sound/6上學期/H-3嘉年華.mp3
+H-4,1,H,慶典,celebration,./sound/6上學期/H-4慶典.mp3
+H-5,1,H,小偷,thief,./sound/6上學期/H-5小偷.mp3
+H-6,1,H,河流,river,./sound/6上學期/H-6河流.mp3
+H-7,1,H,溫泉,hot spring,./sound/6上學期/H-7溫泉.mp3
+H-8,1,H,南投,Nantou,./sound/6上學期/H-8南投.mp3
+H-9,1,H,屏東,Pingtung,./sound/6上學期/H-9屏東.mp3
+H-10,1,H,高雄,Kaohsiung,./sound/6上學期/H-10高雄.mp3
+H-11,1,H,每年有好幾百萬人去嘉年華會。,Millions of people go to Carnival every year.,./sound/6上學期/H-11句1.mp3
+H-12,1,H,巴西政策是避免人們的安全遭到小偷的威脅。,Brazil's police try to keep people safe from thieves.,./sound/6上學期/H-12句2.mp3
+H-13,1,H,你上個星期五去日月潭嗎？,Did you go to Sun Moon Lake,./sound/6上學期/H-13句3.mp3
+H-14,1,H,是的。/沒有，我上個星期五去綠島。,Yes， I did.  /  No， I didn’t. I went to Green Island last Friday.,./sound/6上學期/H-14句4.mp3
+I-1,1,I,燃料,fuel,./sound/6上學期/I-1燃料.mp3
+I-2,1,I,化石,fossil,./sound/6上學期/I-2化石.mp3
+I-3,1,I,混合,mix,./sound/6上學期/I-3混合.mp3
+I-4,1,I,航空公司,airlines,./sound/6上學期/I-4航空公司.mp3
+I-5,1,I,國家,country,./sound/6上學期/I-5國家.mp3
+I-6,1,I,便利商店,convenience store,./sound/6上學期/I-6便利商店.mp3
+I-7,1,I,捷運站,MRT station,./sound/6上學期/I-7捷運站.mp3
+I-8,1,I,在.....對面,across from,./sound/6上學期/I-8在.....對面.mp3
+I-9,1,I,在.....之間,between,./sound/6上學期/I-9在.....之間.mp3
+I-10,1,I,在.....旁邊,next to,./sound/6上學期/I-10在.....旁邊.mp3
+I-11,1,I,台灣希望飛機不再造成空氣污染。,Taiwan wants all planes to make less dirty air.,./sound/6上學期/I-11句1.mp3
+I-12,1,I,明年，台灣也將自己製造新的環保燃料。,Next year， Taiwan will make its own cleaner fuel.,./sound/6上學期/I-12句2.mp3
+I-13,1,I,茶飲店在哪裡？,Where is the tea shop?,./sound/6上學期/I-13句3.mp3
+I-14,1,I,它在科學博物館和公園之間。,It’s between the science museum and the park.,./sound/6上學期/I-14句4.mp3
+J-1,1,J,夾腳拖,flip-flop,./sound/6上學期/J-1夾腳拖.mp3
+J-2,1,J,回收,recycle,./sound/6上學期/J-2回收.mp3
+J-3,1,J,剎車,brake,./sound/6上學期/J-3煞車.mp3
+J-4,1,J,學習,learn,./sound/6上學期/J-4學習.mp3
+J-5,1,J,家人,family,./sound/6上學期/J-5家人.mp3
+J-6,1,J,科學博物館,science museum,./sound/6上學期/J-6科學博物館.mp3
+J-7,1,J,茶飲店,tea shop,./sound/6上學期/J-7茶飲店.mp3
+J-8,1,J,餐廳,restaurant,./sound/6上學期/J-8餐廳.mp3
+J-9,1,J,電影院,movie theater,./sound/6上學期/J-9電影院.mp3
+J-10,1,J,超市,supermarket,./sound/6上學期/J-10超市.mp3
+J-11,1,J,他很無聊，所以嘗試了新事物。,He was bored， so he tried something new.,./sound/6上學期/J-11句1.mp3
+J-12,1,J,你的朋友怎麼想到這個主意?,Where did your friend get the idea?,./sound/6上學期/J-12句2.mp3
+J-13,1,J,捷運站在茶飲店旁邊嗎？,Is the MRT station next to the tea shop?,./sound/6上學期/J-13句3.mp3
+J-14,1,J,是的。/不是。它在茶飲店對面。,Yes， it is. / No， it’s not. It’s across from the tea shop.,./sound/6上學期/J-14句4.mp3
+K-1,1,K,南極,Antarctica,./sound/6上學期/K-1南極.mp3
+K-2,1,K,專家,expert,./sound/6上學期/K-2專家.mp3
+K-3,1,K,第一次,first time,./sound/6上學期/K-3第一次.mp3
+K-4,1,K,以前,before,./sound/6上學期/K-4以前.mp3
+K-5,1,K,世界上,in the world,./sound/6上學期/K-5世界上.mp3
+K-6,1,K,處於困難中,in trouble,./sound/6上學期/K-6處於困難中.mp3
+K-7,1,K,水豚,capybara,./sound/6上學期/K-7水豚.mp3
+K-8,1,K,意思是,mean,./sound/6上學期/K-8意思是.mp3
+K-9,1,K,環繞,around,./sound/6上學期/K-9環繞.mp3
+K-10,1,K,在.....旁邊,by,./sound/6上學期/K-10在.....旁邊.mp3
+K-11,1,K,你有去過冰島嗎?,Have you ever been to Iceland?,./sound/6上學期/K-11句1.mp3
+K-12,1,K,蚊子喜歡住在溫暖潮濕的地方。,Mosquitoes like to live in warm and wet places.,./sound/6上學期/K-12句2.mp3
+K-13,1,K,我遇到麻煩了。,I’m in hot water.,./sound/6上學期/K-13句3.mp3
+K-14,1,K,有其母必有其女。,Like mother， like daughter.,./sound/6上學期/K-14句4.mp3
+L-1,1,L,垃圾,trash,./sound/6上學期/L-1垃圾mp3.mp3
+L-2,1,L,焚燒,burn,./sound/6上學期/L-2焚燒.mp3
+L-3,1,L,垃圾掩埋,landfills,./sound/6上學期/L-3垃圾掩埋.mp3
+L-4,1,L,較少的,less,./sound/6上學期/L-4較少的 .mp3
+L-5,1,L,公斤,kilogram,./sound/6上學期/L-5公斤.mp3
+L-6,1,L,提款,withdraw,./sound/6上學期/L-6提款.mp3
+L-7,1,L,存款,deposit,./sound/6上學期/L-7存款.mp3
+L-8,1,L,繳費,pay bills,./sound/6上學期/L-8繳費mp3.mp3
+L-9,1,L,與.....相處,hang out,./sound/6上學期/L-9與.....相處.mp3
+L-10,1,L,雜誌,magazine,./sound/6上學期/L-10雜誌.mp3
+L-11,1,L,我胖了七公斤!,I gained 7 kilograms!,./sound/6上學期/L-11句1.mp3
+L-12,1,L,你只需要少吃薯條就可以了。,All you need to do is cut down on French fries.,./sound/6上學期/L-12句2.mp3
+L-13,1,L,便利商店就像一間銀行。,A convenience store is like a bank.,./sound/6上學期/L-13句3.mp3
+L-14,1,L,你可以坐下來喝杯茶或咖啡放鬆一下。, You can sit down and relax with a cup of tea or coffee.,./sound/6上學期/L-14句4.mp3
